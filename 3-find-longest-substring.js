@@ -9,7 +9,7 @@
 
 // ---------------------------------------------------------------------
 
-let str = "abbc";
+let str = "bbbaaaa";
 
 let isPalindRomicStr = (str) => {
   let reverseStr = "";
@@ -52,4 +52,4 @@ let findLongestPalindRomicSubStr = (str) => {
   console.log(`longest sub str of (${str}== ${longestPalindromicSubstr})`);
 };
 
-findLongestPalindRomicSubStr("abbcddd");
+findLongestPalindRomicSubStr(str);
